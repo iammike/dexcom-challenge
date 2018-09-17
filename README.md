@@ -12,6 +12,8 @@ Capybara: https://github.com/teamcapybara/capybara#setup. For this project, you 
 
 Rspec: https://github.com/teamcapybara/capybara#using-capybara-with-rspec
 
+ChromeDriver: http://chromedriver.chromium.org/getting-started.
+
 ### Installing
 
 Pull the respository to your local machine.

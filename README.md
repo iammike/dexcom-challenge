@@ -1,6 +1,8 @@
 # Dexcom Automation Engineer Coding Challenge
 
-This project is my submission to automate a simple webpage as part of job screening. It was completed in roughly three hours with a light knowledge of the technologies in use (Ruby, Cucumber, Capybara, Rspec).
+This project is my submission to automate a simple webpage as part of job screening. It was completed in roughly three hours with a light existing knowledge of the technologies in use (Ruby, Cucumber, Capybara, Rspec).
+
+The [generated report](http://htmlpreview.github.io/?https://github.com/iammike/dexcom-challenge/blob/master/report.html) and [screenshots](screenshots) associated with the requisite test cases have also been uploaded.
 
 ### Prerequisites
 

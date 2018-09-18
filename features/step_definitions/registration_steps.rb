@@ -8,12 +8,12 @@ end
 
 When(/^I fill in "([^"]*)" with "([^"]*)"$/) do |field, text|
   field = field.sub('line ', '') # Address label to input box ID doesn't following standard scheme and needs special attention
-  field = 'user_' + field.downcase.tr(' ', '_') # Convert friendly labels to IDs
+  field = convert_to_id(field)
   fill_in field, with: text
 end
 
 And(/^I select "([^"]*)" of "([^"]*)"$/) do |field, text|
-  field = 'user_' + field.downcase.tr(' ', '_') # Convert friendly labels to IDs
+  field = convert_to_id(field)
   select text, from: field
 end
 
@@ -32,7 +32,7 @@ end
 
 
 Then(/^I should see "([^"]*)" contains "([^"]*)"$/) do |field, text|
-  field = 'user_' + field.downcase.tr(' ', '_') # Convert friendly labels to IDs
+  field = convert_to_id(field)
   page.should have_field field, with: text
 end
 
